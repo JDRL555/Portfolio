@@ -1,0 +1,27 @@
+.about_section {
+  background: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.text_container {
+  width: 50%;
+}
+
+.text_container p {
+  font-size: 18px;
+}
+
+.img_container {
+  text-align: center;
+}
+
+.img_container h1 {
+  padding: 20px 0;
+}

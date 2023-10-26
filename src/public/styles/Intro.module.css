@@ -1,0 +1,46 @@
+.intro_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.text p {
+  font-size: 17px;
+  margin: 5px;
+}
+
+.me {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.link_container {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.links_container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.link {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--light-primary-color);
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--secondary-color);
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+.nav {
+  width: 200px;
+  padding-right: 4rem;
+  height: 100vh;
+  margin: 30px;
+  position: fixed;
+  z-index: 5;
+}
+
+.nav_icon_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  width: auto;
+  padding-left: 30px;
+  font-size: 23px;
+  transition: .5s;
+}
+
+.nav_icon_container:hover {
+  background: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.nav_icon_container p {
+  padding: 0 10px;
+}
+
+.icon {
+  color: var(--secondary-color);
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.nav_icon_container:hover .icon {
+  color: var(--light-primary-color);
+  background: var(--secondary-color);
+}
+
+.line {
+  z-index: 3;
+  width: 5px;
+  background: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 80px;
+}

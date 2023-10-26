@@ -1,0 +1,35 @@
+:root {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  --primary-color: #13305B;
+  --secondary-color: #07162D;
+  --light-primary-color: #9AC2FF;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Roboto Serif', serif;
+  color: var(--light-primary-color);
+  font-size: 50px;
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  margin-left: auto;
+}
+
+section {
+  padding: 30px;
+}
+
+.main_div {
+  display: flex;
+}
