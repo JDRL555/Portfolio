@@ -1,0 +1,130 @@
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+}
+
+.table th {
+  border-bottom: 1px solid var(--light-primary-color);
+  border-right: 1px solid var(--light-primary-color);
+}
+
+.table th {
+  padding: 10px;
+}
+
+.table td {
+  padding: 2px;
+}
+
+.table th:last-child,
+.table td:last-child {
+  border-right: 0;
+}
+
+.table td {
+  border-right: 1px solid var(--light-primary-color);
+}
+
+.table th {
+  color: var(--light-primary-color);
+}
+
+.icon_container{
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.icon_container p,
+.table th {
+  font-size: 17px;
+}
+
+.icon {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.container_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#javascript {
+  color: var(--javascript-color);
+}
+
+#typescript {
+  color: var(--typescript-color);
+}
+
+#python {
+  color: var(--python-color);
+}
+
+#html {
+  color: var(--html-color);
+}
+
+#css {
+  color: var(--css-color);
+}
+
+#react {
+  color: var(--react-color);
+}
+
+#next {
+  color: var(--next-color);
+}
+
+#next p,
+#flask p,
+#express p {
+  color: white;
+}
+
+#next p {
+  padding-left: 10px;
+}
+
+#next .icon {
+  background: white;
+  padding: 0;
+  border-radius: 100%;
+}
+
+#tailwind {
+  color: var(--tailwind-color);
+}
+
+#node {
+  color: var(--node-color);
+}
+
+#express {
+  color: var(--express-color);
+}
+
+#flask {
+  color: var(--flask-color);
+}
+
+#fast {
+  color: var(--fast-color);
+}
+
+#mongo {
+  color: var(--mongo-color);
+}
+
+#mysql {
+  color: var(--mysql-color);
+}

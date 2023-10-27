@@ -5,6 +5,24 @@
   --primary-color: #13305B;
   --secondary-color: #07162D;
   --light-primary-color: #9AC2FF;
+
+  --javascript-color: #FFD600;
+  --typescript-color: #1976D2;
+  --python-color: #0277BD;
+
+  --html-color: #FF6D00;
+  --css-color: #039BE5;
+  --react-color: #80DEEA;
+  --next-color: #000;
+  --tailwind-color: #00ACC1;
+
+  --node-color: #209C64;
+  --express-color: #000;
+  --flask-color: #000;
+  --fast-color: #05998B;
+
+  --mongo-color: #4CAF50;
+  --mysql-color: #53808C;
 }
 
 body {
@@ -17,7 +35,7 @@ body {
 h1 {
   font-family: 'Roboto Serif', serif;
   color: var(--light-primary-color);
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
 }
 
