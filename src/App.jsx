@@ -1,7 +1,8 @@
-import Navbar         from './components/Navbar'
-import IntroSection   from './components/IntroSection'
-import AboutMeSection from './components/AboutMeSection'
-import MyStackSection from './components/MyStackSection'
+import Navbar               from './components/Navbar'
+import IntroSection         from './components/IntroSection'
+import AboutMeSection       from './components/AboutMeSection'
+import MyStackSection       from './components/MyStackSection'
+import SomeProjectsSection  from './components/SomeProjectsSection'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <IntroSection />
         <AboutMeSection />
         <MyStackSection />
+        <SomeProjectsSection />
       </main>
     </div>
   )

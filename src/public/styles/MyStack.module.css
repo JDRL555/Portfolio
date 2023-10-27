@@ -69,11 +69,11 @@
   color: var(--python-color);
 }
 
-#html {
+#html5 {
   color: var(--html-color);
 }
 
-#css {
+#css3 {
   color: var(--css-color);
 }
 
@@ -81,31 +81,31 @@
   color: var(--react-color);
 }
 
-#next {
+#nextjs {
   color: var(--next-color);
 }
 
-#next p,
+#nextjs p,
 #flask p,
 #express p {
   color: white;
 }
 
-#next p {
+#nextjs p {
   padding-left: 10px;
 }
 
-#next .icon {
+#nextjs .icon {
   background: white;
   padding: 0;
   border-radius: 100%;
 }
 
-#tailwind {
+#tailwindcss {
   color: var(--tailwind-color);
 }
 
-#node {
+#nodejs {
   color: var(--node-color);
 }
 
@@ -117,11 +117,11 @@
   color: var(--flask-color);
 }
 
-#fast {
+#fastapi {
   color: var(--fast-color);
 }
 
-#mongo {
+#mongodb {
   color: var(--mongo-color);
 }
 
