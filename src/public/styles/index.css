@@ -5,6 +5,7 @@
   --primary-color: #13305B;
   --secondary-color: #07162D;
   --light-primary-color: #9AC2FF;
+  --white-primary-color: #D2E4FF;
 
   --javascript-color: #FFD600;
   --typescript-color: #1976D2;
@@ -15,14 +16,18 @@
   --react-color: #80DEEA;
   --next-color: #000;
   --tailwind-color: #00ACC1;
+  --vue-color: #3BB984;
 
   --node-color: #209C64;
   --express-color: #000;
   --flask-color: #000;
   --fast-color: #05998B;
+  --django-color: #2BA977;
+  --nestjs-color: #E0234E;
 
   --mongo-color: #4CAF50;
   --mysql-color: #53808C;
+  --postgresql-color: #336791;
 }
 
 body {
@@ -40,14 +45,77 @@ h1 {
 }
 
 main {
-  width: 80%;
-  margin-left: auto;
+  width: 100%;
 }
 
 section {
-  padding: 30px;
+  padding: 60px 0;
+  padding-left: 14rem;
+  background: url("../img/bg_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section * {
+  view-timeline-name: --section;
+  view-timeline-axis: block;
+
+  animation-timeline: --section;
+  animation-name: show;
+  animation-range: entry 30% cover 40%;
+  animation-fill-mode: both;
+}
+
+.dark_section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.35);
+  top: 0;
+  left: 0;
+
+  view-timeline-name: --section;
+  view-timeline-axis: block;
+
+  animation-timeline: --section;
+  animation-name: dark_about;
+  animation-range: entry 30% cover 40%;
+  animation-fill-mode: both;
 }
 
 .main_div {
   display: flex;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 70%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+@keyframes dark_about {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes select {
+  from {
+    background: none;
+  }
+
+  to {
+    background: var(--secondary-color);
+  }
 }

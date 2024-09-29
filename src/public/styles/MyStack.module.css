@@ -1,3 +1,11 @@
+.stack_section {
+  position: relative;
+  background-image:
+    /* linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  */
+    url("../img/bg_3.png")
+  ;
+}
+
 .h1 {
   text-align: center;
   margin-bottom: 20px;
@@ -37,8 +45,7 @@
 .icon_container{
   display: flex;
   align-items: center;
-  padding: 0 10px;
-  margin: auto;
+  justify-content: center;
 }
 
 .icon_container p,
@@ -47,14 +54,16 @@
 }
 
 .icon {
-  font-size: 30px;
+  font-size: 20px;
   padding-right: 10px;
 }
 
 .container_flex {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 #javascript {
@@ -105,6 +114,10 @@
   color: var(--tailwind-color);
 }
 
+#vuejs {
+  color: var(--vue-color);
+}
+
 #nodejs {
   color: var(--node-color);
 }
@@ -117,6 +130,14 @@
   color: var(--flask-color);
 }
 
+#django {
+  color: var(--django-color);
+}
+
+#nestjs {
+  color: var(--nestjs-color);
+}
+
 #fastapi {
   color: var(--fast-color);
 }
@@ -127,4 +148,8 @@
 
 #mysql {
   color: var(--mysql-color);
+}
+
+#postgresql {
+  color: var(--postgresql-color);
 }

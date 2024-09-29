@@ -1,12 +1,14 @@
 .about_section {
-  background: var(--secondary-color);
+  position: relative;
+  background-image: 
+    url("../img/bg_2.png");
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .img {
-  width: 300px;
+  width: 350px;
   border-radius: 10px;
 }
 

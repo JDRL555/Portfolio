@@ -16,13 +16,11 @@ export default function Technologies({ technologies }) {
       <tbody>
         {
           technologies.map(tech => (
-            <tr key={tech.id}>
+            <tr key={tech.id} className={styles.rows}>
               {tech.row.map(col => (
                 <td key={col.col_id}>
                   {
-                    col.stacks[0].col > 1
-                    ?
-                    <div className={styles.container_flex} key={col.stacks[0].col}>
+                    <div className={styles.container_flex} key={col.stacks[0].col_id}>
                       {
                         col.stacks.map(stack => (
                           <div 
@@ -35,20 +33,6 @@ export default function Technologies({ technologies }) {
                         ))
                       }  
                     </div>
-                    :
-                    <>
-                    {
-                      col.stacks.map(stack => (
-                        <div 
-                          id={styles[stack.name.toLowerCase()]} 
-                          className={styles.icon_container} key={stack.col}
-                        >
-                          <img src={stack.src} className={styles.icon} />
-                          <p>{stack.name}</p>
-                        </div>
-                      ))
-                    }
-                    </>
                   }
                 </td>
               ))}

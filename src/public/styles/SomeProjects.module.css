@@ -1,7 +1,56 @@
 .projects_section {
-  background: var(--secondary-color);
+  position: relative;
+  background-image: url(../img/bg_4.png);
 }
 
 .h1 {
   text-align: center;
+  padding: 15px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project {
+  background: var(--white-primary-color);
+  color: var(--secondary-color);
+  border-radius: 25px;
+  width: 21.5rem;
+}
+
+.project button {
+  border: none;
+  border-radius: 10px;
+  margin: 0 5px;
+  outline: none;
+  padding: 0.6em;
+  background-color: var(--secondary-color);
+  color: var(--white-primary-color);
+  font-size: 15px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.project button:hover {
+  background: var(--white-primary-color);
+  color: var(--secondary-color);
+}
+
+.card_container {
+  padding: 15px;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.icon svg {
+  margin: 0 5px;
 }

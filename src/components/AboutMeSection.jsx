@@ -3,6 +3,7 @@ import styles from '../public/styles/AboutMe.module.css'
 export default function AboutMe() {
   return (
     <section className={styles.about_section}>
+      <div className="dark_section"></div>
       <div className={styles.img_container}>
         <h1>About me</h1>
         <img 

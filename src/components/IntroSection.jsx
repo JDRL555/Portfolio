@@ -5,7 +5,7 @@ import styles from '../public/styles/Intro.module.css'
 
 export default function IntroSection() {
   return (
-    <section>
+    <section className={styles.intro_section}>
       <div className={styles.intro_div}>
         <img 
           src="../src/public/img/me.jpg" 
@@ -13,7 +13,9 @@ export default function IntroSection() {
           className={styles.me} 
         />
         <div className={styles.text}>
-          <h1>Joshua Rodriguez</h1>
+          <h1>
+            {"< Joshua Rodriguez />"}
+          </h1>
           <p>Full Stack web developer</p>
         </div>
       </div>
@@ -26,7 +28,7 @@ export default function IntroSection() {
         </div>
         <div className={styles.link_container}>
           <FaClipboardUser className={styles.icon} />
-          <a href="../src/public/files/cv_english.pdf" className={styles.link} download>
+          <a href="../src/public/files/cv.pdf" className={styles.link} download>
             Download my CV!
           </a>
         </div>
