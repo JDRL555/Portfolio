@@ -1,3 +1,7 @@
+import {
+  SiReact, SiFastapi, SiMongodb, SiFlask, SiMysql
+} from 'react-icons/si'
+
 export const PROJECTS = [
   {
     name: "Task App",
@@ -18,4 +22,12 @@ export const PROJECTS = [
       { name: "mysql" },
     ]
   }
+]
+
+export const TECHS = [
+  { name: "react", icon: SiReact() },
+  { name: "fastapi", icon: SiFastapi() },
+  { name: "mongodb", icon: SiMongodb() },
+  { name: "flask", icon: SiFlask() },
+  { name: "mysql", icon: SiMysql() },
 ]

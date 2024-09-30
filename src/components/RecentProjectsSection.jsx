@@ -1,4 +1,4 @@
-import { PROJECTS } from '../utils/projects.js'
+import { PROJECTS } from '../constants/projects.constants.js'
 import Project      from './Project.jsx'
 import styles       from '../public/styles/SomeProjects.module.css'
 
