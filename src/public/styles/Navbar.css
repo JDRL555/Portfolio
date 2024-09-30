@@ -8,6 +8,7 @@
 }
 
 .nav_icon_container {
+  background-color: none;
   display: flex;
   align-items: center;
   border-radius: 10px;
@@ -21,8 +22,14 @@
   transition: .5s;
 }
 
-.nav_icon_container:hover {
-  background: var(--secondary-color);
+.nav_icon_container:hover,
+.nav_icon_container_hover {
+  background-color: var(--secondary-color);
+}
+
+
+.nav_icon_container_unhover {
+  background: none;
 }
 
 .nav_icon_container p {
@@ -31,15 +38,21 @@
 
 .icon {
   color: var(--secondary-color);
-  background: white;
+  background-color: white;
   padding: 10px;
   border-radius: 5px;
   transition: .3s;
 }
 
-.nav_icon_container:hover .icon {
+.nav_icon_container:hover .icon,
+.icon_hover {
   color: var(--light-primary-color);
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+.icon_unhover {
+  color: var(--secondary-color);
+  background-color: white;
 }
 
 .line {

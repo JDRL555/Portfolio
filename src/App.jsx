@@ -8,23 +8,23 @@ import Footer                 from './components/Footer'
 
 export default function App() {
   window.onload = () => {
-    const nav_item = document.querySelector("._nav_icon_container_wr7z9_19")
-    const nav_icon = nav_item.querySelector("._icon_wr7z9_63")
-    nav_item.style.backgroundColor = "#07162D"
-    nav_icon.style.backgroundColor = "#07162D"
-    nav_icon.style.color = "#9AC2FF"
+    const nav_item = document.querySelector(".nav_icon_container")
+    const nav_icon = nav_item.querySelector(".icon")
+    nav_item.classList.add("nav_icon_container_hover")
+    nav_icon.classList.add("icon_hover")
   }
 
   window.onscroll = (() => {
-    const nav_items = document.querySelectorAll("._nav_icon_container_wr7z9_19")
+    const nav_items = document.querySelectorAll(".nav_icon_container")
     const currentScrollY = window.scrollY
     let index = 0
-    
+
     nav_items.forEach(item => {
-      item.style.background = "none"
-      const icon = item.querySelector("._icon_wr7z9_63")
-      icon.style.background = "#D2E4FF"
-      icon.style.color = "#07162D"
+      const icon = item.querySelector(".icon")
+      item.classList.add("nav_icon_container_unhover")
+      item.classList.remove("nav_icon_container_hover")
+      icon.classList.add("icon_unhover")
+      icon.classList.remove("icon_hover")
     })
     
     if(currentScrollY >= 0 && currentScrollY < 386) index = 0
@@ -33,10 +33,12 @@ export default function App() {
     else if(currentScrollY > 1365 && currentScrollY < 1600) index = 3
     else index = 4
     
-    nav_items[index].style.backgroundColor = "#07162D"
-    const icon = nav_items[index].querySelector("._icon_wr7z9_63")
-    icon.style.backgroundColor = "#07162D"
-    icon.style.color = "#9AC2FF"
+    const icon = nav_items[index].querySelector(".icon")
+
+    nav_items[index].classList.add("nav_icon_container_hover")
+    nav_items[index].classList.remove("nav_icon_container_unhover")
+    icon.classList.add("icon_hover")
+    icon.classList.remove("icon_unhover")
   })
   return (
     <div className='main_div'>

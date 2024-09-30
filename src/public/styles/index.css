@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth; }
 :root {
   font-family: 'IBM Plex Sans', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
