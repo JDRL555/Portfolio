@@ -14,8 +14,8 @@ export default function Project({ project }) {
         <div className={styles.card_footer}>
           <div className={styles.icon}>
             {
-              project.techs.map(stack => (
-                TECHS.find(tech => tech.name == stack.name).icon
+              project.techs.map((stack, stack_index) => (
+                TECHS.find(tech => tech.name == stack.name).icon({ key: stack_index })
               ))
             }
           </div>

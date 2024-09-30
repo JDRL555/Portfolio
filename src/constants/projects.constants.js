@@ -25,9 +25,9 @@ export const PROJECTS = [
 ]
 
 export const TECHS = [
-  { name: "react", icon: SiReact() },
-  { name: "fastapi", icon: SiFastapi() },
-  { name: "mongodb", icon: SiMongodb() },
-  { name: "flask", icon: SiFlask() },
-  { name: "mysql", icon: SiMysql() },
+  { name: "react", icon: SiReact },
+  { name: "fastapi", icon: SiFastapi },
+  { name: "mongodb", icon: SiMongodb },
+  { name: "flask", icon: SiFlask },
+  { name: "mysql", icon: SiMysql },
 ]
