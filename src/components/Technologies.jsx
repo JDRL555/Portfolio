@@ -2,7 +2,6 @@
 import styles from '../public/styles/MyStack.module.css'
 
 export default function Technologies({ technologies }) {
-  console.log(technologies)
   return (
     <table className={styles.table}>
       <thead>

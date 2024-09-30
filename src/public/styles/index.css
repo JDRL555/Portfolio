@@ -67,6 +67,10 @@ section * {
   animation-fill-mode: both;
 }
 
+section:last-child * {
+  animation-range: entry 30% cover 10%;
+}
+
 .dark_section {
   position: absolute;
   width: 100%;

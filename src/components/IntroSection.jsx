@@ -5,7 +5,7 @@ import styles from '../public/styles/Intro.module.css'
 
 export default function IntroSection() {
   return (
-    <section className={styles.intro_section}>
+    <section id='section_intro' className={styles.intro_section}>
       <div className={styles.intro_div}>
         <img 
           src="../src/public/img/me.jpg" 

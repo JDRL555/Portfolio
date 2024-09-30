@@ -7,28 +7,28 @@ export default function Navbar() {
   return (
     <>
       <nav className={styles.nav}>
-        <div className={styles.nav_icon_container}>
+        <a href="#section_intro" className={styles.nav_icon_container}>
           <FaHouse className={styles.icon} /> 
           <p>Home</p>
-        </div>
-        <div className={styles.nav_icon_container}>
+        </a>
+        <a href="#section_about_me" className={styles.nav_icon_container}>
           <FaUser className={styles.icon} /> 
           <p>About me</p>
-        </div>
-        <div className={styles.nav_icon_container}>
+        </a>
+        <a href="#section_my_stack" className={styles.nav_icon_container}>
           <FaCode className={styles.icon} /> 
           <p>My Stack</p>
-        </div>
-        <div className={styles.nav_icon_container}>
+        </a>
+        <a href="#section_projects" className={styles.nav_icon_container}>
           <FaSuitcase className={styles.icon} /> 
-          <p>Some projects</p>
-        </div>
-        <div className={styles.nav_icon_container}>
+          <p>Recent projects</p>
+        </a>
+        <a href="#section_contact" className={styles.nav_icon_container}>
           <FaMessage className={styles.icon} /> 
           <p>Contact to me</p>
-        </div>
+        </a>
       </nav>
-      <div className={styles.line}></div>
+      <a href="#section_intro" className={styles.line}></a>
     </>
   )
 }

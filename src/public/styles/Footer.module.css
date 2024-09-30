@@ -1,0 +1,11 @@
+.footer_section {
+  background-image: url(../img/bg_4.png);
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}

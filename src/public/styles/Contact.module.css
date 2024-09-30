@@ -1,0 +1,50 @@
+.contact_section {
+  position: relative;
+  background-image: url("../img/bg_5.png");
+}
+
+.contact_section h1 {
+  text-align: center;
+}
+
+.contact_text {
+  width: 40%;
+  font-size: 30px;
+}
+
+.contact_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.media_container {
+  width: 60%;
+}
+
+.media {
+  text-decoration: none;
+  color: var(--white-primary-color);
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.media {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.media:hover {
+  background-color: var(--secondary-color);
+}
+
+.media_icon {
+  font-size: 70px;
+  color: var(--white-primary-color);
+}

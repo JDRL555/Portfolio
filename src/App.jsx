@@ -1,8 +1,10 @@
-import Navbar               from './components/Navbar'
-import IntroSection         from './components/IntroSection'
-import AboutMeSection       from './components/AboutMeSection'
-import MyStackSection       from './components/MyStackSection'
-import SomeProjectsSection  from './components/SomeProjectsSection'
+import Navbar                 from './components/Navbar'
+import IntroSection           from './components/IntroSection'
+import AboutMeSection         from './components/AboutMeSection'
+import MyStackSection         from './components/MyStackSection'
+import RecentProjectsSection  from './components/RecentProjectsSection'
+import ContactSection         from './components/ContactSection'
+import Footer                 from './components/Footer'
 
 export default function App() {
   return (
@@ -12,7 +14,9 @@ export default function App() {
         <IntroSection />
         <AboutMeSection />
         <MyStackSection />
-        <SomeProjectsSection />
+        <RecentProjectsSection />
+        <ContactSection />
+        <Footer />
       </main>
     </div>
   )
