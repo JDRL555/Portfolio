@@ -10,6 +10,7 @@
 .nav_icon_container {
   display: flex;
   align-items: center;
+  border-radius: 10px;
   position: relative;
   text-decoration: none;
   color: var(--white-primary-color);
@@ -22,7 +23,6 @@
 
 .nav_icon_container:hover {
   background: var(--secondary-color);
-  border-radius: 10px;
 }
 
 .nav_icon_container p {
