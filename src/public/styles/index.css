@@ -68,6 +68,11 @@ section * {
   animation-fill-mode: both;
 }
 
+
+section:nth-child(4) * {
+  animation-range: entry 30% cover 20%;
+}
+
 section:last-child * {
   animation-range: entry 30% cover 10%;
 }
