@@ -1,18 +1,3 @@
-.projects_section {
-  position: relative;
-  background-image: url(../img/bg_4.png);
-}
-
-.h1 {
-  text-align: center;
-  padding: 15px;
-}
-
-.projects {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .project {
   background: var(--white-primary-color);
   color: var(--secondary-color);

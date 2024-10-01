@@ -1,7 +1,7 @@
 import { 
   SiGmail, SiWhatsapp
 }  from 'react-icons/si'
-import styles from '../public/styles/Contact.module.css'
+import styles from './styles/Contact.module.css'
 
 export default function ContactSection() {
   return (

@@ -1,7 +1,7 @@
 import { 
   FaHouse, FaUser, FaCode, FaSuitcase, FaMessage
 }  from 'react-icons/fa6'
-import '../public/styles/Navbar.css'
+import './styles/Navbar.css'
 
 export default function Navbar() {
   return (

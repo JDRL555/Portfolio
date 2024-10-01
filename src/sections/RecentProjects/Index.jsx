@@ -1,6 +1,6 @@
-import { PROJECTS } from '../constants/projects.constants.js'
-import Project      from './Project.jsx'
-import styles       from '../public/styles/SomeProjects.module.css'
+import { PROJECTS } from '../../constants/projects.constants.js'
+import Project      from '../../components/Project.jsx'
+import styles       from './styles/RecentProjects.module.css'
 
 export default function RecentProjectsSection() {
   return (

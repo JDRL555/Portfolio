@@ -1,0 +1,22 @@
+.icon_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_container p {
+  font-size: 17px;
+}
+
+.icon {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.container_flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+}

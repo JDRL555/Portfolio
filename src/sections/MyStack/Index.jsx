@@ -1,6 +1,6 @@
-import styles           from '../public/styles/MyStack.module.css'
-import Technologies     from './Technologies'
-import { TECHNOLOGIES } from '../constants/technologies.constants'
+import Technologies     from './components/Technologies/Technologies'
+import { TECHNOLOGIES } from '../../constants/technologies.constants'
+import styles           from './styles/MyStack.module.css'
 
 export default function MyStack() {
   return (

@@ -1,0 +1,31 @@
+.table {
+  width: 80%;
+  margin: auto;
+}
+
+.table th {
+  border-bottom: 1px solid var(--light-primary-color);
+  border-right: 1px solid var(--light-primary-color);
+}
+
+.table th {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.table td {
+  padding: 2px;
+}
+
+.table th:last-child,
+.table td:last-child {
+  border-right: 0;
+}
+
+.table td {
+  border-right: 1px solid var(--light-primary-color);
+}
+
+.table th {
+  color: var(--light-primary-color);
+}

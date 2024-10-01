@@ -1,4 +1,4 @@
-import styles from '../public/styles/AboutMe.module.css'
+import styles from './styles/AboutMe.module.css'
 
 export default function AboutMe() {
   return (
@@ -14,7 +14,7 @@ export default function AboutMe() {
       </div>
       <div className={styles.text_container}>
         <p>
-          Howdy!, my name is Joshua David Rodriguez Leal, and i’m a venezuelan teenager, currently {new Date().getFullYear() - 2004} years old. 
+          Howdy!, my name is Joshua David Rodriguez Leal, and i’m a Venezuelan teenager, currently {new Date().getFullYear() - 2004} years old. 
         </p>
         <p>
           I’m a web developer with {new Date().getFullYear() - 2021} + years of experience, handling technologies related with it like Javascript and Python with it framewoks (React, NextJS, Django...).

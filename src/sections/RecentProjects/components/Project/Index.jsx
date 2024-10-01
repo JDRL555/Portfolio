@@ -1,5 +1,5 @@
-import { TECHS } from '../constants/projects.constants'
-import styles from '../public/styles/SomeProjects.module.css'
+import { TECHS } from '../../../../constants/projects.constants'
+import styles from './styles/SomeProjects.module.css'
 
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
